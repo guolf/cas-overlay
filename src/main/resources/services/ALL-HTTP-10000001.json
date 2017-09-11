@@ -1,0 +1,11 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|http)://.*",
+  "name" : "HTTPS and IMAPS",
+  "id" : 10000001,
+  "description" : "允许所有HTTP/HTTPS请求，仅供测试",
+  "evaluationOrder" : 1,
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}
